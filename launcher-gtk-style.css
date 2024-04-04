@@ -1,13 +1,8 @@
-/*
-You can type here any CSS rule recognized by GTK+.
-You can temporarily disable this custom CSS by clicking on the “Pause” button above.
-
-Changes are applied instantly and globally, for the whole application.
-*/
-
+/* miniplayer style */
 #launcher-19 > box > button {
 	padding-right: unset;
 	margin-right: unset;
+    padding: 5px;
 }
 #launcher-17 > box > button {
 	padding: unset;
@@ -16,17 +11,17 @@ Changes are applied instantly and globally, for the whole application.
 #launcher-25 > box > button {
 	padding-left: unset;
 	margin-left: unset;
+    padding: 5px;
 }
+
+
 
 
 #launcher-19 > box > button > image {
 	background: linear-gradient(gray, black);
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
+    border-style: solid;
 	border-width: 1px;
-	border-top-left-radius: 50%;
-	border-bottom-left-radius: 50%;
+    border-radius: 50%;
 }
 #launcher-17 > box > button > image {
 	background: linear-gradient(gray, black);
@@ -36,10 +31,7 @@ Changes are applied instantly and globally, for the whole application.
 }
 #launcher-25 > box > button > image {
 	background: linear-gradient(gray, black);
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-right-style: solid;
+    border-style: solid;
 	border-width: 1px;
-	border-top-right-radius: 50%;
-	border-bottom-right-radius: 50%;
+    border-radius: 50%;
 }
